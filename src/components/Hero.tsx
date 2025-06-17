@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       ></div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-96px)] ml-6">
-          {/* Left Content */}
+          
           <div className="space-y-6">
             <div className="space-y-6">
               <p className="text-[#DF6951] font-bold text-lg uppercase ">
@@ -61,8 +61,8 @@ const Hero: React.FC = () => {
               <Image
                 src="/Traveller.png"
                 alt="Traveller with backpack"
-                width={784}
-                height={764}
+                width={820}
+                height={800}
                 className="object-cover rounded-lg"
                 priority
               />
@@ -75,8 +75,8 @@ const Hero: React.FC = () => {
         <Image
           src="/flight.png"
           alt="flight1"
-          width={99}
-          height={32} />
+          width={112}
+          height={42} />
       </div>
       
       <div className="absolute top-44 right-96 z-5">

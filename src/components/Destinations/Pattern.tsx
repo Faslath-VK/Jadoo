@@ -4,7 +4,7 @@ export const Pattern: React.FC = () => {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <svg viewBox="0 0 400 400" className="w-80 h-80">
-        {/* Central circle */}
+        
         <circle 
           cx="200" 
           cy="200" 
@@ -14,7 +14,7 @@ export const Pattern: React.FC = () => {
           strokeWidth="2"
         />
         
-        {/* 6 surrounding circles forming the Seed of Life */}
+        
         <circle 
           cx="200" 
           cy="140" 

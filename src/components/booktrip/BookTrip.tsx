@@ -8,7 +8,6 @@ const BookTrip: React.FC = () => {
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8 ml-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Section - Steps */}
           <div className="space-y-8">
             <div>
               <p className="text-gray-600 text-lg mb-2 font-volkhov font-semibold">
@@ -42,13 +41,12 @@ const BookTrip: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Section - Trip Card */}
           <div className="flex justify-center lg:justify-end pr-4 lg:pr-20">
-            <div className="relative shadow-[12px_-12px_30px_0px_rgba(15,182,243,0.3)]
- rounded-3xl mt-4">
+            <div
+              className="relative shadow-[12px_-12px_30px_0px_rgba(15,182,243,0.3)]
+ rounded-3xl mt-4"
+            >
               <div className="bg-white rounded-3xl shadow-2xl overflow-hidden w-80 relative z-10">
-                
-                {/* Trip Image */}
                 <div className="relative h-40 mx-6 mt-4 rounded-2xl overflow-hidden">
                   <Image
                     src="/greece.jpg"
@@ -58,7 +56,6 @@ const BookTrip: React.FC = () => {
                   />
                 </div>
 
-                {/* Card Content */}
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {tripData.title}
@@ -71,7 +68,6 @@ const BookTrip: React.FC = () => {
                     </span>
                   </div>
 
-                  {/* Status Icons */}
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-3">
                       <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-600">
@@ -86,7 +82,6 @@ const BookTrip: React.FC = () => {
                     </div>
                   </div>
 
-                  {/* People Count */}
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <div className="flex items-center space-x-1 text-gray-600">
@@ -117,7 +112,6 @@ const BookTrip: React.FC = () => {
               </div>
             </div>
           </div>
-          {/* End Right Section */}
         </div>
       </div>
     </div>

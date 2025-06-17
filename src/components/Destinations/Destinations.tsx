@@ -9,12 +9,12 @@ const Destinations: React.FC = () => {
   return (
      <div className="bg-white pt-8 pb-16 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative">
-        {/* Pattern Positioned Behind Last Card */}
+       
         <div className="absolute  top-2 right-20 z-0 opacity-20">
           <Pattern />
         </div>
 
-        {/* Header Section */}
+        
         <div className="text-center mb-10 relative z-10">
           <p className="text-gray-500 font-semibold text-sm uppercase tracking-wider mb-3">
             Top Selling
@@ -24,14 +24,14 @@ const Destinations: React.FC = () => {
           </h1>
         </div>
 
-        {/* Destinations Grid */}
+        
         <div className="flex flex-wrap justify-center gap-6 relative z-10">
           {destinations.map((destination) => (
             <div
               key={destination.id}
               className="w-62 h-[370px] bg-white rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden"
             >
-              {/* Destination Image */}
+              
               <div className="relative h-66 w-full">
                 <Image
                   src={destination.image}
@@ -41,7 +41,7 @@ const Destinations: React.FC = () => {
                 />
               </div>
 
-              {/* Content */}
+              
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-lg font-semibold text-gray-800">
